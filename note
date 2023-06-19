@@ -1,0 +1,21 @@
+In Main we write:
+
+
+while True:
+    choice = int(input("\nEnter your choice: "))
+    if choice == 1:
+        customer.add_to_cart(burger)
+        print("Burger added to cart!")
+    elif choice == 2:
+        customer.add_to_cart(pizza)
+        print("Pizza added to cart!")
+    elif choice == 3:
+        customer.add_to_cart(pepsi)
+        print("Pepsi added to cart!")
+    elif choice == 4:
+        customer.add_to_cart(water)
+        print("Water added to cart!")
+    elif choice == 5:
+        break
+    else:
+        print("Invalid choice, please try again.")
